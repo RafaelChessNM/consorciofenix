@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="forularios.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logoConsorcio">
+        <img class="logo" src="fotos/logoFenis.png" alt="">
+        <h2>Consórcio Fenix</h2>
+    </div>
+    <div class="caixa">
+        <h1>Cadastro de Perfil</h1>
+        <div class="textos">
+
+            <section>
+                <div class="primeiro">
+                    <label for="nameUser">Seu nome:</label>
+                    <input type="text" id="nameUser" name="nome" placeholder="Rafael">
+            </section>
+            <br>
+            <section>
+                <label for="emailUser">Seu e-mail:</label>
+                <input type="email" id="emailUser" name="email" placeholder="nome@gmail.com">
+            </section>
+            <br>
+            <section>
+                <label for="passwordUser">Sua Senha:</label>
+                <input type="password" id="passwordUser" name="senha" placeholder="12345">
+            </section>
+            <br>
+            <section>
+                <label for="CPFUser">Digite seu CPF:</label>
+                <input type="text" id="CPFUser" name=Cpf placeholder="123.456.789-01">
+            </section>
+            <br>
+            <section class="sexo">
+                <label class="gordo" for="sexoUser">Selecione seu gênero</label><br><br>
+                <input class="botaoHomem" type="radio" id="homemUser" name=sexo>
+                <label class="homem" for="homemUser">Homem</label>
+                <input class="botaoMulher" type="radio" id="mulherUser" name=sexo>
+                <label class="mulher" for="mulherUser">Mulher</label>
+                <input class="botaoOutro" type="radio" id="outroUser" name=sexo>
+                <label class="outro" for="outroUser">Outro</label>
+            </section>
+            <br>
+            <br>
+            <section>
+                <label for="nascimentoUser">Sua data de nascimento:</label>
+                <input class="nascimento" type="date" id="nascimentoUser" name="data">
+            </section>
+            <div class="botoes">
+            <a href="https://github.com/RafaelChessNM"><button class="send">Enviar para Git</button></a>
+            <a href="https://www.consorciofenix.com.br/"><button class="home">Ir para início</button></a>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
